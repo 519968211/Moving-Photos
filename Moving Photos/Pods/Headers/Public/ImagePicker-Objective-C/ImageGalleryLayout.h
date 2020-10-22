@@ -1,0 +1,1 @@
+../../../ImagePicker-Objective-C/Source/ImageGallery/ImageGalleryLayout.h

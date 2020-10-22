@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D7F14F232C2C9F00A1066B /* MusicSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F14E232C2C9F00A1066B /* MusicSelectionViewController.m */; };
+		24D7F152232C2CB100A1066B /* PhotoSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D7F151232C2CB100A1066B /* PhotoSelectionViewController.m */; };
+		288158B02323767D00AD5F39 /* SwipeLeftModelAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288158AF2323767D00AD5F39 /* SwipeLeftModelAnimationDelegate.m */; };
+		288158B32323984B00AD5F39 /* SwipeRightModelAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288158B12323984A00AD5F39 /* SwipeRightModelAnimationDelegate.m */; };
+		288158B62323A89200AD5F39 /* ShowImageModelAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288158B42323A89100AD5F39 /* ShowImageModelAnimationDelegate.m */; };
+		28AD352023348290004180C0 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28AD351F23348290004180C0 /* song.mp3 */; };
+		28D2D8702323480700B664D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2D86F2323480700B664D6 /* AppDelegate.m */; };
+		28D2D8732323480700B664D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2D8722323480700B664D6 /* ViewController.m */; };
+		28D2D8762323480700B664D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D8742323480700B664D6 /* Main.storyboard */; };
+		28D2D8782323480800B664D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D8772323480800B664D6 /* Assets.xcassets */; };
+		28D2D87B2323480800B664D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D8792323480800B664D6 /* LaunchScreen.storyboard */; };
+		28D2D87E2323480800B664D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2D87D2323480800B664D6 /* main.m */; };
+		28D2D8862323515100B664D6 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2D8852323515100B664D6 /* ImageTableViewCell.m */; };
+		28D2D8932323579A00B664D6 /* o_1aimkke70.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D8892323579A00B664D6 /* o_1aimkke70.jpg */; };
+		28D2D8942323579A00B664D6 /* o_1aimkke75.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D88A2323579A00B664D6 /* o_1aimkke75.jpg */; };
+		28D2D8952323579A00B664D6 /* o_1aimkke74.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D88B2323579A00B664D6 /* o_1aimkke74.jpg */; };
+		28D2D8962323579A00B664D6 /* o_1aimkke73.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D88C2323579A00B664D6 /* o_1aimkke73.jpg */; };
+		28D2D8972323579A00B664D6 /* o_1aimkke77.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D88D2323579A00B664D6 /* o_1aimkke77.jpg */; };
+		28D2D8982323579A00B664D6 /* o_1aimkke79.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D88E2323579A00B664D6 /* o_1aimkke79.jpg */; };
+		28D2D8992323579A00B664D6 /* o_1aimkke72.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D88F2323579A00B664D6 /* o_1aimkke72.jpg */; };
+		28D2D89A2323579A00B664D6 /* o_1aimkke71.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D8902323579A00B664D6 /* o_1aimkke71.jpg */; };
+		28D2D89B2323579A00B664D6 /* o_1aimkke76.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D8912323579A00B664D6 /* o_1aimkke76.jpg */; };
+		28D2D89C2323579A00B664D6 /* o_1aimkke78.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28D2D8922323579A00B664D6 /* o_1aimkke78.jpg */; };
+		28D2D89F232359CB00B664D6 /* ImageShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2D89E232359CB00B664D6 /* ImageShowViewController.m */; };
+		652C88005A939443C71A1E41 /* libPods-Moving Photos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A77AF9CDAB795B41B3110D /* libPods-Moving Photos.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24D7F14D232C2C9F00A1066B /* MusicSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicSelectionViewController.h; sourceTree = "<group>"; };
+		24D7F14E232C2C9F00A1066B /* MusicSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicSelectionViewController.m; sourceTree = "<group>"; };
+		24D7F150232C2CB100A1066B /* PhotoSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSelectionViewController.h; sourceTree = "<group>"; };
+		24D7F151232C2CB100A1066B /* PhotoSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSelectionViewController.m; sourceTree = "<group>"; };
+		288158AE2323767D00AD5F39 /* SwipeLeftModelAnimationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeLeftModelAnimationDelegate.h; sourceTree = "<group>"; };
+		288158AF2323767D00AD5F39 /* SwipeLeftModelAnimationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeLeftModelAnimationDelegate.m; sourceTree = "<group>"; };
+		288158B12323984A00AD5F39 /* SwipeRightModelAnimationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeRightModelAnimationDelegate.m; sourceTree = "<group>"; };
+		288158B22323984A00AD5F39 /* SwipeRightModelAnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeRightModelAnimationDelegate.h; sourceTree = "<group>"; };
+		288158B42323A89100AD5F39 /* ShowImageModelAnimationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageModelAnimationDelegate.m; sourceTree = "<group>"; };
+		288158B52323A89200AD5F39 /* ShowImageModelAnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageModelAnimationDelegate.h; sourceTree = "<group>"; };
+		28AD351F23348290004180C0 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		28D2D86B2323480700B664D6 /* Moving Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moving Photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D2D86E2323480700B664D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28D2D86F2323480700B664D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28D2D8712323480700B664D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28D2D8722323480700B664D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28D2D8752323480700B664D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28D2D8772323480800B664D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28D2D87A2323480800B664D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28D2D87C2323480800B664D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D2D87D2323480800B664D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28D2D8842323515100B664D6 /* ImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		28D2D8852323515100B664D6 /* ImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		28D2D8892323579A00B664D6 /* o_1aimkke70.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke70.jpg; sourceTree = "<group>"; };
+		28D2D88A2323579A00B664D6 /* o_1aimkke75.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke75.jpg; sourceTree = "<group>"; };
+		28D2D88B2323579A00B664D6 /* o_1aimkke74.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke74.jpg; sourceTree = "<group>"; };
+		28D2D88C2323579A00B664D6 /* o_1aimkke73.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke73.jpg; sourceTree = "<group>"; };
+		28D2D88D2323579A00B664D6 /* o_1aimkke77.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke77.jpg; sourceTree = "<group>"; };
+		28D2D88E2323579A00B664D6 /* o_1aimkke79.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke79.jpg; sourceTree = "<group>"; };
+		28D2D88F2323579A00B664D6 /* o_1aimkke72.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke72.jpg; sourceTree = "<group>"; };
+		28D2D8902323579A00B664D6 /* o_1aimkke71.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke71.jpg; sourceTree = "<group>"; };
+		28D2D8912323579A00B664D6 /* o_1aimkke76.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke76.jpg; sourceTree = "<group>"; };
+		28D2D8922323579A00B664D6 /* o_1aimkke78.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o_1aimkke78.jpg; sourceTree = "<group>"; };
+		28D2D89D232359CB00B664D6 /* ImageShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageShowViewController.h; sourceTree = "<group>"; };
+		28D2D89E232359CB00B664D6 /* ImageShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageShowViewController.m; sourceTree = "<group>"; };
+		33A77AF9CDAB795B41B3110D /* libPods-Moving Photos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Moving Photos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8F2640D2197ACBBE64E72D /* Pods-Moving Photos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moving Photos.release.xcconfig"; path = "Target Support Files/Pods-Moving Photos/Pods-Moving Photos.release.xcconfig"; sourceTree = "<group>"; };
+		D735F4441D6D82582219B28A /* Pods-Moving Photos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moving Photos.debug.xcconfig"; path = "Target Support Files/Pods-Moving Photos/Pods-Moving Photos.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28D2D8682323480700B664D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652C88005A939443C71A1E41 /* libPods-Moving Photos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D2D8622323480700B664D6 = {
+			isa = PBXGroup;
+			children = (
+				28D2D8882323579100B664D6 /* Resource */,
+				28D2D86D2323480700B664D6 /* Moving Photos */,
+				28D2D86C2323480700B664D6 /* Products */,
+				ECFB37799633BDEA56D381F7 /* Pods */,
+				7996B2C4AA43E473A2E3683C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28D2D86C2323480700B664D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28D2D86B2323480700B664D6 /* Moving Photos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28D2D86D2323480700B664D6 /* Moving Photos */ = {
+			isa = PBXGroup;
+			children = (
+				28D2D86E2323480700B664D6 /* AppDelegate.h */,
+				28D2D86F2323480700B664D6 /* AppDelegate.m */,
+				28D2D8712323480700B664D6 /* ViewController.h */,
+				28D2D8722323480700B664D6 /* ViewController.m */,
+				28D2D8842323515100B664D6 /* ImageTableViewCell.h */,
+				28D2D8852323515100B664D6 /* ImageTableViewCell.m */,
+				28D2D89D232359CB00B664D6 /* ImageShowViewController.h */,
+				28D2D89E232359CB00B664D6 /* ImageShowViewController.m */,
+				288158AE2323767D00AD5F39 /* SwipeLeftModelAnimationDelegate.h */,
+				288158AF2323767D00AD5F39 /* SwipeLeftModelAnimationDelegate.m */,
+				288158B22323984A00AD5F39 /* SwipeRightModelAnimationDelegate.h */,
+				288158B12323984A00AD5F39 /* SwipeRightModelAnimationDelegate.m */,
+				288158B52323A89200AD5F39 /* ShowImageModelAnimationDelegate.h */,
+				288158B42323A89100AD5F39 /* ShowImageModelAnimationDelegate.m */,
+				24D7F14D232C2C9F00A1066B /* MusicSelectionViewController.h */,
+				24D7F14E232C2C9F00A1066B /* MusicSelectionViewController.m */,
+				24D7F150232C2CB100A1066B /* PhotoSelectionViewController.h */,
+				24D7F151232C2CB100A1066B /* PhotoSelectionViewController.m */,
+				28D2D8742323480700B664D6 /* Main.storyboard */,
+				28D2D8772323480800B664D6 /* Assets.xcassets */,
+				28D2D8792323480800B664D6 /* LaunchScreen.storyboard */,
+				28D2D87C2323480800B664D6 /* Info.plist */,
+				28D2D87D2323480800B664D6 /* main.m */,
+			);
+			path = "Moving Photos";
+			sourceTree = "<group>";
+		};
+		28D2D8882323579100B664D6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				28AD351F23348290004180C0 /* song.mp3 */,
+				28D2D8892323579A00B664D6 /* o_1aimkke70.jpg */,
+				28D2D8902323579A00B664D6 /* o_1aimkke71.jpg */,
+				28D2D88F2323579A00B664D6 /* o_1aimkke72.jpg */,
+				28D2D88C2323579A00B664D6 /* o_1aimkke73.jpg */,
+				28D2D88B2323579A00B664D6 /* o_1aimkke74.jpg */,
+				28D2D88A2323579A00B664D6 /* o_1aimkke75.jpg */,
+				28D2D8912323579A00B664D6 /* o_1aimkke76.jpg */,
+				28D2D88D2323579A00B664D6 /* o_1aimkke77.jpg */,
+				28D2D8922323579A00B664D6 /* o_1aimkke78.jpg */,
+				28D2D88E2323579A00B664D6 /* o_1aimkke79.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7996B2C4AA43E473A2E3683C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33A77AF9CDAB795B41B3110D /* libPods-Moving Photos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECFB37799633BDEA56D381F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D735F4441D6D82582219B28A /* Pods-Moving Photos.debug.xcconfig */,
+				4A8F2640D2197ACBBE64E72D /* Pods-Moving Photos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28D2D86A2323480700B664D6 /* Moving Photos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D2D8812323480800B664D6 /* Build configuration list for PBXNativeTarget "Moving Photos" */;
+			buildPhases = (
+				7DAFD169C86B5AB5001887B0 /* [CP] Check Pods Manifest.lock */,
+				28D2D8672323480700B664D6 /* Sources */,
+				28D2D8682323480700B664D6 /* Frameworks */,
+				28D2D8692323480700B664D6 /* Resources */,
+				667FBCE3DE38EB5B9CD5CBEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moving Photos";
+			productName = "Moving Photos";
+			productReference = 28D2D86B2323480700B664D6 /* Moving Photos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28D2D8632323480700B664D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					28D2D86A2323480700B664D6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 28D2D8662323480700B664D6 /* Build configuration list for PBXProject "Moving Photos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28D2D8622323480700B664D6;
+			productRefGroup = 28D2D86C2323480700B664D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28D2D86A2323480700B664D6 /* Moving Photos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28D2D8692323480700B664D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D2D87B2323480800B664D6 /* LaunchScreen.storyboard in Resources */,
+				28D2D8962323579A00B664D6 /* o_1aimkke73.jpg in Resources */,
+				28D2D89C2323579A00B664D6 /* o_1aimkke78.jpg in Resources */,
+				28D2D8982323579A00B664D6 /* o_1aimkke79.jpg in Resources */,
+				28D2D8782323480800B664D6 /* Assets.xcassets in Resources */,
+				28D2D8952323579A00B664D6 /* o_1aimkke74.jpg in Resources */,
+				28D2D89A2323579A00B664D6 /* o_1aimkke71.jpg in Resources */,
+				28D2D8932323579A00B664D6 /* o_1aimkke70.jpg in Resources */,
+				28D2D8992323579A00B664D6 /* o_1aimkke72.jpg in Resources */,
+				28D2D89B2323579A00B664D6 /* o_1aimkke76.jpg in Resources */,
+				28AD352023348290004180C0 /* song.mp3 in Resources */,
+				28D2D8972323579A00B664D6 /* o_1aimkke77.jpg in Resources */,
+				28D2D8942323579A00B664D6 /* o_1aimkke75.jpg in Resources */,
+				28D2D8762323480700B664D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		667FBCE3DE38EB5B9CD5CBEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moving Photos/Pods-Moving Photos-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moving Photos/Pods-Moving Photos-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moving Photos/Pods-Moving Photos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DAFD169C86B5AB5001887B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moving Photos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28D2D8672323480700B664D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D2D8732323480700B664D6 /* ViewController.m in Sources */,
+				288158B32323984B00AD5F39 /* SwipeRightModelAnimationDelegate.m in Sources */,
+				28D2D8862323515100B664D6 /* ImageTableViewCell.m in Sources */,
+				28D2D87E2323480800B664D6 /* main.m in Sources */,
+				288158B62323A89200AD5F39 /* ShowImageModelAnimationDelegate.m in Sources */,
+				28D2D89F232359CB00B664D6 /* ImageShowViewController.m in Sources */,
+				28D2D8702323480700B664D6 /* AppDelegate.m in Sources */,
+				24D7F14F232C2C9F00A1066B /* MusicSelectionViewController.m in Sources */,
+				24D7F152232C2CB100A1066B /* PhotoSelectionViewController.m in Sources */,
+				288158B02323767D00AD5F39 /* SwipeLeftModelAnimationDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28D2D8742323480700B664D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28D2D8752323480700B664D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28D2D8792323480800B664D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28D2D87A2323480800B664D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28D2D87F2323480800B664D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28D2D8802323480800B664D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28D2D8822323480800B664D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D735F4441D6D82582219B28A /* Pods-Moving Photos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M8VW3YWLH;
+				INFOPLIST_FILE = "Moving Photos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Moving-Photos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		28D2D8832323480800B664D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8F2640D2197ACBBE64E72D /* Pods-Moving Photos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M8VW3YWLH;
+				INFOPLIST_FILE = "Moving Photos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Moving-Photos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28D2D8662323480700B664D6 /* Build configuration list for PBXProject "Moving Photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D2D87F2323480800B664D6 /* Debug */,
+				28D2D8802323480800B664D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D2D8812323480800B664D6 /* Build configuration list for PBXNativeTarget "Moving Photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D2D8822323480800B664D6 /* Debug */,
+				28D2D8832323480800B664D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28D2D8632323480700B664D6 /* Project object */;
+}
